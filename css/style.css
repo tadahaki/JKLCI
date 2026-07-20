@@ -234,6 +234,9 @@ nav a.active::after {
     z-index: 1100;
     flex-shrink: 0;
 }
+body.nav-open {
+    overflow: hidden;
+}
 
 .menu-toggle span {
     display: block;
